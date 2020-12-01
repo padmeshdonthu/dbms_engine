@@ -1,0 +1,7 @@
+select_keyword = "select"
+delete_keyword = "delete"
+drop_keyword = "drop"
+insert_keyword = "insert"
+update_keyword = "update"
+create_keyword = "create"
+use_keyword = "use"

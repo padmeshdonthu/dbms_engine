@@ -1,0 +1,3 @@
+USE DATABASE database1;
+create table department(id int, name varchar(45), primary key(id));
+create table employee(id int, name varchar(45), deptid int, primary key(id), foreign key(deptid) references department(id));

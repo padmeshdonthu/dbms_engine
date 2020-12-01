@@ -1,0 +1,3 @@
+database_name,table_name,lock_status
+database1,department,N
+database1,employee,N

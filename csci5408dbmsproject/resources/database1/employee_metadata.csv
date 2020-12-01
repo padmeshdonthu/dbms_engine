@@ -1,0 +1,4 @@
+column_name,column_type,column_length,is_primary,is_foreign,foreign_table,foreign_key_table
+id,int,-1,True,False,None,None
+name,varchar,45,False,False,None,None
+deptid,int,-1,False,True,department,id

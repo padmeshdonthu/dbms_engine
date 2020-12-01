@@ -1,0 +1,19 @@
+The database database1 has 2 entities!
+The entity information is mentioned below:
+
+The table department information is:
+The columns are:
+Column name: id, Datatype: int
+Column name: name, Datatype: varchar(45)
+The Primary Key is id
+
+The table employee information is:
+The columns are:
+Column name: id, Datatype: int
+Column name: name, Datatype: varchar(45)
+Column name: deptid, Datatype: int
+The Primary Key is id
+The Foreign Key is deptid
+References Table is department and Referenced Table Key is id
+The Cardinality from department to employee is 1:N
+

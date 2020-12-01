@@ -1,0 +1,8 @@
+User Query,Table/Database Name,Query Type,Current time,Execution time
+create database database1;,database1,create,01/12/2020 18:02:04,2 ms
+"create table department(id int, name varchar(45), primary key(id));",department,create,01/12/2020 18:02:12,91 ms
+"create table employee(id int, name varchar(45), deptid int, primary key(id), foreign key(deptid) references department(id));",employee,create,01/12/2020 18:02:19,6 ms
+use database1;,database1,use,01/12/2020 18:26:44,3 ms
+"insert into department(id,name) values(1,cse);",department,insert,01/12/2020 18:26:53,16 ms
+"insert into department(id,name) values(2,mech);",department,insert,01/12/2020 18:30:51,17 ms
+use database1;,database1,use,01/12/2020 18:32:09,2 ms

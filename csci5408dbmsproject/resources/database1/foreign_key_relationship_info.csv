@@ -1,0 +1,2 @@
+primary_table,primary_table_key,foreign_table,foreign_table_key
+department,id,employee,deptid
